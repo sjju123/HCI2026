@@ -1,0 +1,111 @@
+{
+    "version": 1,
+    "name": "inputNew Actions",
+    "maps": [
+        {
+            "name": "FPS",
+            "id": "5063561a-d11e-4d82-8167-b5b711faf166",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "ec508f8d-a8be-4e89-955e-07df77b1d6c2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "MOVE",
+                    "type": "Button",
+                    "id": "0bb9c974-a14a-44ec-baf8-0394259eecd6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "fire",
+                    "type": "Button",
+                    "id": "b48c4ad0-7c71-4795-80c6-89db9a102b98",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "20b8fa30-45c8-4185-bff6-b94d615cad41",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aedfe94c-9ebe-4bce-97c9-57c0b1cbb6d7",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MOVE",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "3b6135db-42a7-438e-96cd-0d2b71cc23a8",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MOVE",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "a99e428c-6245-4b7d-9138-e17ca0e1c109",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MOVE",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "2903917c-7732-4e06-9c7f-386e14840268",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MOVE",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "a246796d-ef01-4691-897a-f53363ab058a",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
