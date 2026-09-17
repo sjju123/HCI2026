@@ -94,6 +94,39 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "Key",
+                    "id": "a5226c0c-b9fe-426d-94aa-a20b8309efd8",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MOVE",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "037544f2-15b6-4da3-9e34-83bb428274b2",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MOVE",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "a2fcdc32-e14c-462f-a6c6-93167447fed7",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MOVE",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "",
                     "id": "a246796d-ef01-4691-897a-f53363ab058a",
                     "path": "",
