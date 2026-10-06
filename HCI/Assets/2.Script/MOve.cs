@@ -9,24 +9,24 @@ public class MOve : MonoBehaviour
 
     float move;
 
-    public void OnTankMove(InputAction.CallbackContext context)
-    {
-        Debug.Log("Move value : " + context.ReadValue<float>);
+    //public void OnTankMove(InputAction.CallbackContext context)
+    //{
+    //    Debug.Log("Move value : " + context.ReadValue<float>);
+    //}
+
+    //public void OnTankRotate(InputAction.CallbackContext context)
+    //{
+    //    Debug.Log("Rotate value : " + context.ReadValue<float>);
     }
 
-    public void OnTankRotate(InputAction.CallbackContext context)
-    {
-        Debug.Log("Rotate value : " + context.ReadValue<float>);
-    }
 
+//    void OnMove(InputValue value)
+//    {
+//        Debug.Log("Input value:" + value.Get<float>());
+//    }
 
-    void OnMove(InputValue value)
-    {
-        Debug.Log("Input value:" + value.Get<float>());
-    }
-
-    void OnARotate(InputValue value)
-    {
+//    void OnARotate(InputValue value)
+//    {
        
-    }
-}
+//    }
+//}

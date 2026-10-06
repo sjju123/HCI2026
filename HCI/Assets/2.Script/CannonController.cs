@@ -15,7 +15,7 @@ public class CannonController : MonoBehaviour
        if (Input.GetButtonDown("Fire1"))
         {
             shell = Instantiate(shellPrefab, fireTrans.position, fireTrans.rotation);
-            shell.GetComponent<>;
+            
         } 
     }
 }
