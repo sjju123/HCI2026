@@ -9,4 +9,8 @@ EditorBuildSettings:
     path: Assets/90.Downloads/_Tanks/Tutorial_Demo/Demo_Scenes/Demo_Game_Moon.unity
     guid: 7d48af2f9c7c14840abfc5e21827efaa
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 12b14c979e853fd429795e29fb7ac934, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 7fb6c1c790fa04865b379a6e8ccd7e9c, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 339bff4bb40da92418247289b80f6861, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 675f8442276e80943a41989d15003511, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6a33c4df3226cf44a9fef3e03376cca9, type: 2}
