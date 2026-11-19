@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
@@ -7,10 +8,13 @@ public class DrawLines : MonoBehaviour
     public LineSettings lineSettings;
     public Camera arCam;
 
+    Dictionary<int, ARLine> lines = new Dictionary<int, ARLine>();
+
     ARPlaneManager arPlaneManager;
     bool initialized = false;
     bool canDraw = false;
     bool isStarting = false;
+    int lineCount = -1;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
@@ -39,7 +43,17 @@ public class DrawLines : MonoBehaviour
     }
     void DrawLine()
     {
-        if (!initialized) return;
+
         if (!canDraw) return;
+
+        Vector3 drawPosition = arCam.ScreenToWorldPoint(
+            new Vector3(Screen.width / 2, Screen.height/2, 0.2f));
+
+        if (isStarting)
+        {
+            //ARLine line = new ARLine(LineSetting);
+            lineCount++;
+
+        }
     }
 }
