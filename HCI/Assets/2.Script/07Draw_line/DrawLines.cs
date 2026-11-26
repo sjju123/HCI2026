@@ -19,7 +19,7 @@ public class DrawLines : MonoBehaviour
     void Awake()
     {
         arPlaneManager = GetComponent<ARPlaneManager>();
-        arPlaneManager.planeChanged = PlaneChanged;
+        //arPlaneManager.planeChanged = PlaneChanged;
     }
     void PlaneChanged(ARPlanesChangedEventArgs args)
     {
